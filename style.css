@@ -1,0 +1,106 @@
+body{
+    font-family: "Poppins", "sans-sarif";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: black;
+}
+
+header > i{
+    font-size: 3em;
+}
+
+header > nav > div > a{
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.first_section{
+    height: 50em;
+    outline: black 2px;
+    background-image: url("images/1.jpg");
+    border-bottom: black solid 8px;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.first_section > div{
+    width: 40rem;
+    padding-left: 6rem;
+
+}
+
+.section1_bigtext{
+    font-size: 4em;
+    margin: 0;
+    padding:0.5em 0 0.2em 0;
+}
+
+.section1_smalltext{
+    font-size: 1.6em;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.second_section{
+    display: flex;
+    height: 40em;
+}
+
+.second_section > div{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2_div1{
+    background-color: red;
+}
+
+.s2_div2{
+    background-color: orange;
+}
+
+hr{
+    width: 20%;
+    color: blueviolet;
+}
